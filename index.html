@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Web Sitesi
+    </title>
+
+    <link rel="icon" type="image/png" href="resimler/logo.png">
+
+    <link rel="stylesheet" href="style.css?ver=0.2">
+</head>
+
+<body>
+    <header style=" background-color: rgb(85, 8, 124) ;">
+
+        <h1 id="Title">Deneme Sitesi</h1>
+
+        <br>
+
+        <span class="sub_title">
+
+        <a href="">Giriş</a>
+        <a href="">Hakkımızda</a>
+        <a href="">Ürünler</a>
+        <a href="">İletişim</a>
+
+        </span>
+
+
+    </header>
+    <main>
+        <!--#region content-->
+        <a href="https://www.youtube.com/watch?v=vXYVfk7agqU" target="_blank" title="Tıkla">
+            <button id="button1" style="font-size: 15px;
+                background-color: rgb(187, 193, 74);
+                color: blue;
+                border-radius: 10px;">
+                Tıkla
+            </button>
+        </a>
+
+
+        <div class="box" id="box1">Kutu 1</div>
+        <div class="box" id="box2">Kutu 2</div>
+
+        <br><br>
+
+        <div class="satir">
+            <img id="resim" src="resimler/resim.jpg" height="200">
+        </div>
+        <br><br>
+
+        <audio controls loop>
+            <source src="sesler/A Walk Into Space - Topher Mohr and Alex Elena.mp3"">
+        </audio>
+
+        <p class="renk_green">
+            Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Minima natus velit corporis molestias repudiandae! 
+            Voluptas architecto libero dolorum ad, 
+            quam aperiam voluptates eligendi iusto laborum 
+            est eius nihil officiis at!
+        </p>
+        <br>
+
+        <pre id="p1">
+            <span class="renk_green">
+            Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit.</span>, 
+                
+                Rerum vero laudantium sapiente assumenda perspiciatis, 
+                laborum beatae in tempore asperiores dicta 
+
+            culpa molestiae illo id dignissimos debitis 
+            minima enim libero repellendus.
+        </pre>
+
+        <!--Yorum satırı-->
+
+        <a href=" https://youtu.be/dQw4w9WgXcQ" target="_blank" title="You wont regret it">
+            Click me
+        </a>
+        <hr>
+        <br>
+        <div class="box" id="box3">
+            <form action="index.php" method="POST" enctype="multipart/form-data">
+
+                <label for="Username">
+                    Username:
+                </label>
+                <input type="text" id="Username" placeholder="Username" minlength="3" maxlength="20" required>
+                <br>
+                <label for="Password">
+                    Password:
+                </label>
+                <input type="password" id="password" placeholder="Password" minlength="3" maxlength="20">
+                <br>
+                <label for="Email">
+                    Email:
+                </label>
+                <input type="email" id="email" placeholder="email" minlength="5" maxlength="100">
+                <br>
+                <label for="Gender">
+                    Gender:
+                </label>
+                <select id="Gender">
+                    <option value="Male">
+                        Male
+                    </option>
+                    <option value="Female">
+                        Female (Ironman -> Fe = iron; male = man)
+                    </option>
+                    <option value="Esad">
+                        Esad
+                    </option>
+                </select>
+                <br><br>
+                <label for="Image">
+                    Resim:
+                </label>
+                <input type="file" id="Image" accept="Image/jpg, Image/png, Image/webp, Image/jpeg" <br><br>
+                <br>
+                <input type="submit">
+                <br><br>
+                <input type="reset">
+
+            </form>
+        </div>
+        <hr>
+        <iframe width="450" height="251" src="https://www.youtube.com/embed/OUZ_CG5xhHw"
+            title="Gelmiş Geçmiş Tüm Virüsleri Yok Edebilseydik?" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <a href="https://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shader" target="_blank"
+            title="Shader download link">
+            <video controls muted loop width="450px">
+                <source src="resimler/video.mp4" type="video/mp4">
+                <source src="resimler/video.webm" type="video/webm">
+            </video>
+        </a>
+        <div class="pagination">
+            <a href=""><</a>
+            <a href="index.html" class="active">1</a>
+            <a href="page2.html">2</a>
+            <a href="page3.html">3</a>
+            <a href="page4.html">4</a>
+            <a href="page5.html">5</a>
+            <a href="page2.html">></a>
+        </div>
+        <!--#endregion-->
+    </main>
+    <hr>
+    <footer style="background-color: rgba(0, 0, 0, 0.885) ; color: rgba(255, 255, 255, 0.862)">
+        
+        author: Nadir Güler <br>
+        &copy; copyright reserved <br>
+        <a href="mailto:ndr@fake.com">
+            Mail us
+        </a>
+    </footer>
+
+</body>
+
+</html>
